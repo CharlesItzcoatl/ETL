@@ -1,0 +1,35 @@
+news_sites:
+        lajornada:
+                url: https://www.jornada.com.mx
+                queries: 
+                        homepage_article_links: '.title-default a'
+                        article_title: '.title-default'
+                        article_body: '.ljn-nota-contenido'
+        
+        milenio:
+                url: https://www.milenio.com
+                queries:
+                        homepage_article_links: '.contenedor-notas-block a'
+                        article_title: '.title'
+                        article_body: '.news'
+
+        elfinanciero:
+                url: https://www.elfinanciero.com.mx
+                queries:
+                        homepage_article_links: '.promo-headline a'
+                        article_title: '.headline'
+                        article_body: '.article-body-wrapper'
+
+        unotv:
+                url: https://www.unotv.com
+                queries:
+                        homepage_article_links: '.entry-wrapper a'
+                        article_title: '.entry-title'
+                        article_body: '.entry-content'
+
+        sdpnoticias:
+                url: https://www.sdpnoticias.com
+                queries:
+                        homepage_article_links: '.content-main a'
+                        article_title: '.headline'
+                        article_body: '.feed-thirds'
